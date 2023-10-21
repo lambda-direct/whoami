@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "seed:users": "tsx seed/users.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.2.0",
+    "@hono/zod-validator": "^0.1.9",
+    "@lucia-auth/adapter-postgresql": "^2.0.1",
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.28.6",
+    "hono": "^3.8.2",
+    "lucia": "^2.7.1",
+    "postgres": "^3.4.0",
+    "znv": "^0.4.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.19.13",
+    "tsx": "^3.12.2"
+  }
+}

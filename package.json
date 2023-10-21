@@ -1,0 +1,13 @@
+{
+  "name": "create-drizzle-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fe": "cd packages/frontend && pnpm dev"
+  },
+  "devDependencies": {
+    "dprint": "^0.41.0",
+    "turbo": "^1.10.16"
+  }
+}
